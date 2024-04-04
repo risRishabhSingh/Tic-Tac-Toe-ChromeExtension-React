@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Tic-Tac-Toe",
+    "version": "1.0.1",
+    "icons": {
+        "16": "icon16.png",
+        "32": "icon32.png",
+        "48": "icon48.png"
+    },
+    "background": {
+        "service_worker": "background.js",
+        "type":"module"
+    },
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions":[
+        "scripting"
+    ],
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ]
+
+}

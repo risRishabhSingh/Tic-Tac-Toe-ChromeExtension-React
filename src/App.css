@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Container{
+  width: 534px;
+  height: 500px;
+  background-color: #222831;
+}
+.Main_Cont{
+  color: #F3EEEA;
+  padding: 10px;
+  text-align: center;
+}
+.Grids{
+  height: 75%;
+}
+.Buttons{
+  text-align: center;
+}
+.Buttons button{
+  border: none;
+  outline: none;
+  background-color: #EEEEEE;
+  color: #222831;
+  height: 35px;
+  width: 85px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 0.2),-5px -5px 10px rgba(94, 94, 94, 0.9);
+}
+.Buttons button:active{
+  transform: scale(0.95);
+}
+.Grids{
+  padding: 50px;
+}
+.Box button{
+  color: #222831;
+  height: 90px;
+  width: 135px;
+  font-size: 65px;
+  background-color: #F3EEEA;
+  border: 2px solid #222831;
+  display: inline-block;
+  vertical-align: middle;
+}
+.Box button:active{
+  transform: scale(0.95);
+}
+.WinContainer{
+  width: 534px;
+  height: 500px;
+  background-color: #222831;
+  color: #F3EEEA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.WinContainer button{
+  border: none;
+  outline: none;
+  background-color: #EEEEEE;
+  color: #222831;
+  height: 35px;
+  width: 85px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 0.2),-5px -5px 10px rgba(94, 94, 94, 0.9);
+}
+.WinContainer button:active{
+  transform: scale(0.95);
+}
+.Hidden{
+  display: none;
+}
+.Player{
+  font-size: 250px;
+  color: red;
+}
